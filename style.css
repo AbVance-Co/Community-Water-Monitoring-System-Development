@@ -1,0 +1,58 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9ff;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #005f73;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #94d2bd;
+  color: #003845;
+}
+
+/* Content Section */
+section {
+  padding: 20px 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #003845;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
